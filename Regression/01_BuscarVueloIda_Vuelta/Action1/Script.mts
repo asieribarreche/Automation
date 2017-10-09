@@ -44,6 +44,7 @@ NumPassenger(iPasajero)
 'Find all flight
 findFlight()
 
+Browser("Vueling").Close
 
 '======================= Functions ============================
 
