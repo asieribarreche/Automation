@@ -1,0 +1,10 @@
+<testsuite name="01_BuscarVueloIda" duration="16" tests="8" failures="0">
+  <testcase name="SystemUtil.Run &quot;iexplore.exe&quot;,1" time="0.1" />
+  <testcase name="Vueling.Sync" time="0.1" />
+  <testcase name="standardLogo.Exist" time="0.1" />
+  <testcase name="Solo ida.Click" time="0.1" />
+  <testcase name="AvailabilitySearchInputSearchV.Click" time="0.1" />
+  <testcase name="AvailabilitySearchInputSearchV_2.Click" time="0.1" />
+  <testcase name="2.Click" time="0.1" />
+  <testcase name="Buscar vuelos.Click" time="0.1" />
+</testsuite>
