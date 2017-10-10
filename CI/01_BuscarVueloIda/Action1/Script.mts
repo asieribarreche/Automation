@@ -25,12 +25,15 @@ flightType()
 
 
 Browser("Vueling").Page("Vueling").WebEdit("AvailabilitySearchInputSearchV").Click
-SendKeysShell ("m")
+wait 2
+SendKeysShell ("mad")
+wait 2
 SendKeysShell ("{ENTER}")
-wait 5
+wait 2
 Browser("Vueling").Page("Vueling").WebEdit("AvailabilitySearchInputSearchV_2").Click
-
-SendKeysShell ("b")
+wait 2
+SendKeysShell ("bar")
+wait 2
 SendKeysShell ("{ENTER}")
 
 'selectTravelAirport iOrigen,"AvailabilitySearchInputSearchView$T"
