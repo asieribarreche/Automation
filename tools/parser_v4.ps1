@@ -27,7 +27,7 @@ Foreach-Object {
 	$fallado = 0
 	$passed = 0
 	$failed = 0
-	$ruta_xml_origen = $($_.FullName + "\Result\run_results.xml")
+	$ruta_xml_origen = $($_.FullName + "\Report\run_results.xml")
 	$TC_info_xpath = "/Results/ReportNode/Data/"
 
 	[System.Xml.XmlDocument]$file = new-object System.Xml.XmlDocument
